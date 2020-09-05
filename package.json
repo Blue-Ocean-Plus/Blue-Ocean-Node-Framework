@@ -1,0 +1,15 @@
+{
+  "name": "license",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon server.js",
+    "database": "node Vendor/Database/install-db.js"
+  },
+  "dependencies": {
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "mongodb": "^3.6.1"
+  }
+}
