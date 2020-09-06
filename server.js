@@ -22,6 +22,5 @@ http.createServer((req, res) => {
     }
 
     Route[req.method][req.url](req, res);
-    res.end();
-
+    
 }).listen(PortListen, Domain);
